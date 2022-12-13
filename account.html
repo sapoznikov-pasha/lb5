@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Your Account</title>
+        <form action=""method="post">
+            
+            <p>{% if full_name %}<b><big>Hello, {{full_name}}!</big></b>{% endif %}</p>
+            <p>{% if username %}Your username is: <b>{{username}}</b>{% endif %}</p>
+            <p>{% if password %}Your password is: <b>{{password}}</b>{% endif %}</p>
+            
+        </form>
+    </head>
+    <body>
+
+    </body>
+</html>
